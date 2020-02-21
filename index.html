@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Daily Journal</h1>
+    <h1>Daniel's Daily Journal</h1>
     <form>
+
         <fieldset>
             <label for="journalDate" id="journalDate">Date of Entry</label>
             <input type="date" id="journalDate" name="journalDate">
         </fieldset>
+
         <fieldset>
             <label for="conceptsCovered">Concepts Covered</label>
             <input type="text" id="conceptsCovered" name="conceptsCovered">
         </fieldset>
+
         <fieldset>
             <label for="journalEntry">Journal Entry</label>
             <textarea name="journalEntry" id="journalEntry"></textarea>
         </fieldset>
+
         <fieldset>
             <label for="mood">Mood of The Day</label>
             <select name="moods" id="moods">
@@ -30,7 +34,9 @@
                 <option value="afraid">Afraid</option>
             </select>
         </fieldset>
-        <button>Submit</button>
+
+        <button type="button">Submit Journal Entry</button>
+
     </form>
 </body>
 </html>
